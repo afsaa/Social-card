@@ -22,8 +22,6 @@ class Card extends React.Component {
   }
 
   handleIconClick = e => {
-    //console.log(e.target);
-    //console.log(document.querySelector(".like path"));
     let likeIconPath = document.querySelector(".like path");
     likeIconPath.classList.add("like");
     let commentIconPath = document.querySelector(".comment path");
